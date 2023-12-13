@@ -1,17 +1,17 @@
 name:
-  first: Nathan
-  last: Lambert
+  first: Cong
+  last: Yu
 # phone: ~(540)~947~1238
-email: nathan@natolambert.com
+email: benyucong@gmail.com
 pdf: /data/cv.pdf
-src: https://github.com/natolambert/cv
+src: https://github.com/benyucong/cv
 url: "natolambert.com"
 social:
-  github: natolambert
-  twitter: natolambert
-  linkedin: natolambert
-  google_scholar: O4jW7BsAAAAJ
-  semantic_scholar: 2052363815
+  github: benyucong
+  twitter: BenyucongYu
+  linkedin: cong-yu-76308114a
+  google_scholar: IiuqC3kAAAAJ
+  # semantic_scholar: 2052363815
 # TBD what is my Erdős  number .
 # (Nathan Lambert -> ?  -> Paul Erdős )
 
@@ -30,399 +30,333 @@ order:
   - [industry, Industry Experience]
   - [honors, Honors \& Awards]
   - [all_publications, Publications]
-  - [repos, Repositories]
-  - [artifacts, Machine Learning Artifacts]
+  # - [repos, Repositories]
+  # - [artifacts, Machine Learning Artifacts]
   # - [NEWPAGE, NEWPAGE]
-  - [talks, Invited Talks]
-  - [advising, Mentorship]
-  - [reviewing, Peer Review]
-  - [service, Professional Activities]
+  - [talks, Posters]
+  # - [advising, Mentorship]
+  # - [reviewing, Peer Review]
+  # - [service, Professional Activities]
   - [teaching, Teaching]
-  - [extracur, Extracurriculars]
+  - [skills, Skills]
+  # - [extracur, Extracurriculars]
 
 about: '\vspace{18pt} \small{
-  I research \textbf{data-driven decision making},
-  including progressing \textbf{reinforcmement learning} algorithms,
-  applying them to real-world problems such as \textbf{large language models} and \textbf{robotics}, and planning for the \textbf{societal implications} therein.}
-'
+  I am a first-year Ph.D. student studying computer science at Aalto University 
+  where I am advised by Prof. \href{https://zbjob.github.io/}{Bo Zhao}.
+  I have a broad interest in improving data-intensive machine learning systems, and
+  optimizing quantum computing from a system view.}'
 
-reviewing:
-  - details: Conference on Machine Learning (ICML)
-    year: 2020, 2022 (3), 2023
-    sub_details: "(count is 1 unless labelled)"
-  - details: Conference on Neural Information Processing Systems (NeurIPs)
-    year: 2022 (2), 2023
-  - details: Conference on Learning Representations (ICLR)
-    year: 2021* (3), 2022 (3)
-    sub_details: "(*Outstanding Reviewer)"
-  - details: Conference on Robot Learning (CORL)
-    year: 2020
-  - details: Conference on Robotics and Automation (ICRA)
-    year: 2020, 2021, 2022 (2)
-  - details: Conference on Intelligent Robots and Systems (IROS)
-    year: 2021, 2022 (2)
-  - details: Robotics - Science and Systems (RSS)
-    year: 2022
-  - details: Conference on Decision and Control (CDC)
-    year: 2021
-  - details: Robotics and Automation Letters (RA-L)
-    year: 2019, 2020, 2022
-  - details: Transactions on Cybernetics
-    year: 2019, 2020
+# reviewing:
+#   - details: Conference on Machine Learning (ICML)
+#     year: 2020, 2022 (3), 2023
+#     sub_details: "(count is 1 unless labelled)"
+#   - details: Conference on Neural Information Processing Systems (NeurIPs)
+#     year: 2022 (2), 2023
+#   - details: Conference on Learning Representations (ICLR)
+#     year: 2021* (3), 2022 (3)
+#     sub_details: "(*Outstanding Reviewer)"
+#   - details: Conference on Robot Learning (CORL)
+#     year: 2020
+#   - details: Conference on Robotics and Automation (ICRA)
+#     year: 2020, 2021, 2022 (2)
+#   - details: Conference on Intelligent Robots and Systems (IROS)
+#     year: 2021, 2022 (2)
+#   - details: Robotics - Science and Systems (RSS)
+#     year: 2022
+#   - details: Conference on Decision and Control (CDC)
+#     year: 2021
+#   - details: Robotics and Automation Letters (RA-L)
+#     year: 2019, 2020, 2022
+#   - details: Transactions on Cybernetics
+#     year: 2019, 2020
 
-service:
-  - details: Associate Editor (AE), Conference on Intelligent Robots and Systems (IROS)
-    year: 2023
-  - details: Farama Foundation Board of Technical Advisors
-    year: 2022 -- cont.
-    url: https://farama.org/
-  - details: NeurIPs Workshop on Robot Learning Organizor
-    year: 2021, 2022
-    url: http://robot-learning.ml
-  - details: Member of Well-Being in Machine Learning
-    year: 2021 -- cont.
-    url: https://twitter.com/WellBeingInML
-  - details: RLDM Workshop on Building Accountable and Transparent RL Organizer
-    year: 2022
-    url: https://rewardreports.github.io/workshop.html
-  - details: Berkeley AI Research Audio \& Video Team
-    year: 2021 -- 2022
-  - details: Machine Learning Collective Office Hours
-    year: 2021 -- cont.
-    url: https://mlcollective.org/services/
-  - details: Tapia Panel on Student Mental Health Organizor
-    year: 2021
-    url: https://tapiaconference.cmd-it.org/attend/presentation/?id=acad115&sess=sess251
-  - details: Founder of UC Berkeley EECS Equal Access to Application Assistance (EAAA) Program
-    url: https://sites.google.com/berkeley.edu/eaaa/home
-    year: 2020 -- 2022
-  - details: Wellness Coordinator for UC Berkeley Electrical Engineering Graduate Student Assembly (EEGSA)
-    year: 2020 -- 2022
-  - details: Bay Area Teachers in Schools
-    year: 2017
+# service:
+#   - details: Associate Editor (AE), Conference on Intelligent Robots and Systems (IROS)
+#     year: 2023
+#   - details: Farama Foundation Board of Technical Advisors
+#     year: 2022 -- cont.
+#     url: https://farama.org/
+#   - details: NeurIPs Workshop on Robot Learning Organizor
+#     year: 2021, 2022
+#     url: http://robot-learning.ml
+#   - details: Member of Well-Being in Machine Learning
+#     year: 2021 -- cont.
+#     url: https://twitter.com/WellBeingInML
+#   - details: RLDM Workshop on Building Accountable and Transparent RL Organizer
+#     year: 2022
+#     url: https://rewardreports.github.io/workshop.html
+#   - details: Berkeley AI Research Audio \& Video Team
+#     year: 2021 -- 2022
+#   - details: Machine Learning Collective Office Hours
+#     year: 2021 -- cont.
+#     url: https://mlcollective.org/services/
+#   - details: Tapia Panel on Student Mental Health Organizor
+#     year: 2021
+#     url: https://tapiaconference.cmd-it.org/attend/presentation/?id=acad115&sess=sess251
+#   - details: Founder of UC Berkeley EECS Equal Access to Application Assistance (EAAA) Program
+#     url: https://sites.google.com/berkeley.edu/eaaa/home
+#     year: 2020 -- 2022
+#   - details: Wellness Coordinator for UC Berkeley Electrical Engineering Graduate Student Assembly (EEGSA)
+#     year: 2020 -- 2022
+#   - details: Bay Area Teachers in Schools
+#     year: 2017
 
-repos:
-  - repo_url: https://github.com/huggingface/alignment-handbook
-    year: 2023
-    desc: RLHF model lessons and recipes
-  - repo_url: https://github.com/lvwerra/trl
-    year: 2023
-    desc: Lean library for RLHF
-  - repo_url: https://github.com/huggingface/simulate
-    year: 2022
-    desc: Tool for building embodied AI environments
-  - repo_url: https://github.com/huggingface/diffusers
-    year: 2022
-    desc: Diffusion models library
-  - repo_url: https://github.com/facebookresearch/mbrl-lib
-    year: 2021
-    desc: Model-based reinforcement learning library
-  - repo_url: https://github.com/natolambert/dynamicslearn
-    year: 2020
-    desc: Model-based RL for mixed sim. and real
+# repos:
+#   - repo_url: https://github.com/huggingface/alignment-handbook
+#     year: 2023
+#     desc: RLHF model lessons and recipes
+#   - repo_url: https://github.com/lvwerra/trl
+#     year: 2023
+#     desc: Lean library for RLHF
+#   - repo_url: https://github.com/huggingface/simulate
+#     year: 2022
+#     desc: Tool for building embodied AI environments
+#   - repo_url: https://github.com/huggingface/diffusers
+#     year: 2022
+#     desc: Diffusion models library
+#   - repo_url: https://github.com/facebookresearch/mbrl-lib
+#     year: 2021
+#     desc: Model-based reinforcement learning library
+#   - repo_url: https://github.com/natolambert/dynamicslearn
+#     year: 2020
+#     desc: Model-based RL for mixed sim. and real
 
-artifacts:
-  - id: HuggingFaceH4/zephyr-7b-beta
-    year: 2023
-    type: model
-    desc: Small and powerful chat model v2
-  - id: HuggingFaceH4/zephyr-7b-alpha
-    year: 2023
-    type: model
-    desc: Small and powerful chat model
-  - id: HuggingFaceH4/starchat-playground
-    year: 2023
-    type: space
-    desc: Playground for coding assistant models
-  - id: HuggingFaceH4/starchat-alpha
-    year: 2023
-    type: model
-    desc: Coding assistant language model
-  - id: HuggingFaceH4/open_llm_leaderboard
-    year: 2023
-    type: space
-    desc: Leaderboard for open instruction-tuned LLMs
-  - id: HuggingFaceH4/stack-exchange-preferences
-    year: 2023
-    type: dataset
-    desc: Preference dataset for RLHF from StackExchange
+# artifacts:
+#   - id: HuggingFaceH4/zephyr-7b-beta
+#     year: 2023
+#     type: model
+#     desc: Small and powerful chat model v2
+#   - id: HuggingFaceH4/zephyr-7b-alpha
+#     year: 2023
+#     type: model
+#     desc: Small and powerful chat model
+#   - id: HuggingFaceH4/starchat-playground
+#     year: 2023
+#     type: space
+#     desc: Playground for coding assistant models
+#   - id: HuggingFaceH4/starchat-alpha
+#     year: 2023
+#     type: model
+#     desc: Coding assistant language model
+#   - id: HuggingFaceH4/open_llm_leaderboard
+#     year: 2023
+#     type: space
+#     desc: Leaderboard for open instruction-tuned LLMs
+#   - id: HuggingFaceH4/stack-exchange-preferences
+#     year: 2023
+#     type: dataset
+#     desc: Preference dataset for RLHF from StackExchange
 
 education:
-  - school: University of California, Berkeley
-    location: Berkeley, CA
-    degree: Ph.D. in Electrical Engineering and Computer Science
-    dates: 2017 -- 2022
+  - school: National University of Singapore
+    location: Singapore
+    degree: Master of Computing (General Track)
+    dates: Jan 2022 -- Nov 2023
     # dates: May 2019
-    overallGPA: 4.0/4.0
-    details:
-      - "\\textit{\\href{https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-65.html}{Synergy of Prediction and Control in Model-based Reinforcement Learning}}"
-      - "Advisors: \\href{http://www.eecs.berkeley.edu/~pister/}{Kristofer S.J. Pister},  \\href{https://www.robertocalandra.com/about/}{Roberto Calandra}"
-      - "Committee: \\href{https://people.eecs.berkeley.edu/~svlevine/}{Sergey Levine},  \\href{https://people.eecs.berkeley.edu/~tomlin/}{Claire Tomlin}"
+    overallGPA: 4.08/5.0
+    # details:
+    #   - "\\textit{\\href{https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-65.html}{Synergy of Prediction and Control in Model-based Reinforcement Learning}}"
+    #   - "Advisors: \\href{http://www.eecs.berkeley.edu/~pister/}{Kristofer S.J. Pister},  \\href{https://www.robertocalandra.com/about/}{Roberto Calandra}"
+    #   - "Committee: \\href{https://people.eecs.berkeley.edu/~svlevine/}{Sergey Levine},  \\href{https://people.eecs.berkeley.edu/~tomlin/}{Claire Tomlin}"
 
-
-  - school: Cornell University
-    location: Ithaca, NY
-    degree: B.S. in Electrical and Computer Engineering
-    dates: 2013 -- 2017
+  - school: University of Southern California
+    location: Los Angeles, CA
+    degree: Master of Science in Electrical Engineering
+    dates: Aug 2018 -- Dec 2019
     # dates: May 2014
-    overallGPA: 4.0/4.0
+    overallGPA: 3.96/4.0
+
+  - school: Beihang University
+    location: Beijing, China
+    degree: B.S. in Electronic and Information Engineering
+    dates: Sept 2014 -- July 2018
+    # dates: May 2014
+    overallGPA: 3.6/4.0
 
 industry:
-  - place: Allen Institute for AI
-    location: Remote |
-#    title: Research Intern
-    dates: 2023 -- cont.
+  - place: TikTok Pte. Ltd.
+    location: Singapore |
+    # title: Backend Engineer Intern (Data Engine Development)
+    dates: May 2023 -- Sept 2023
     # dates: June 2018 -- Sept 2018
     details:
-      - "Research Scientist"
-  - place: HuggingFace
-    location: Remote |
+      - "Backend Engineer Intern "
+      - "(Mentor: \\href{https://www.linkedin.com/in/zhaojie-niu-ethereum/}{Zhaojie Niu})"
+  - place: StarFive Technology Co., Ltd.
+    location: Singapore |
 #    title: Research Intern
-    dates: 2022 -- 2023
+    dates: Dec 2022 -- Feb 2023
     # dates: June 2018 -- Sept 2018
     details:
-      - "Research Scientist and RLHF Team Lead"
-  - place: DeepMind
-    location: London (\textit{Virtual}) |
+      - "Engineer Intern "
+      - "(Mentor: \\href{https://www.linkedin.com/in/zhiguo-ge-39b0a120/}{Zhiguo Ge})"
+  - place: Institute for Quantum Computing, Baidu
+    location: Beijing |
 #    title: Research Intern
-    dates: 2021
+    dates: July 2020 -- Sept 2020
     # dates: June 2018 -- Sept 2018
     details:
-      - "Research Intern "
-      - "(Host: \\href{https://www.riedmiller.me}{Martin Riedmiller})"
-  - place: Facebook AI
-    location: Menlo Park |
-#     title: Research Intern & Student Researcher
-    dates: 2019 -- 2020
-    # dates: May 2017 -- Oct 2017
-    details:
-      - "Research Intern and Student Researcher "
-      - "(Host: \\href{https://www.robertocalandra.com/about/}{Roberto Calandra})"
-  - place: Tesla
-    location: Palo Alto
-    # title: Data Scientist Intern
-    dates: 2015
-    details:
-      - "Test Engineering Intern"
+      - "Software Engineer Intern"
 
 teaching:
-  - semester: Fa2023
-    name: AI History
-    short: Seoul National University, School of Law
-    position: Guest Lecture on RL History
-    # http://aihistoryclass.com/
-  - semester: Su2020, Fa2020
-    name: Introduction to Artificial Intelligence
-    short: UCB CS188
-    position: TA
-  - semester: Sp2020
-    name: Introduction to Artificial Intelligence
-    short: UCB CS188
-    position: Instructor
-    details: lectured to 800+ students
+#   - semester: Fa2023
+#     name: AI History
+#     short: Seoul National University, School of Law
+#     position: Guest Lecture on RL History
+#     # http://aihistoryclass.com/
+#   - semester: Su2020, Fa2020
+#     name: Introduction to Artificial Intelligence
+#     short: UCB CS188
+#     position: TA
+#   - semester: Sp2020
+#     name: Introduction to Artificial Intelligence
+#     short: UCB CS188
+#     position: Instructor
+#     details: lectured to 800+ students
+#   - semester: Fa2019
+#     name: Designing Information Devices and Systems II
+#     short: UCB EE16B
+#     position: TA
   - semester: Fa2019
-    name: Designing Information Devices and Systems II
-    short: UCB EE16B
-    position: TA
-  - semester: Sp2017
-    name: Integrated Micro Sensors and Actuators
-    short: Cornell ECE4320
+    name: Linear Algebra for Engineering
+    short: USC EE 510
     position: Grader
-  - semester: Fa2016
-    name: Mathematics of Signal and System Analysis
-    short: Cornell ECE 3250
-    position: TA
+#   - semester: Fa2016
+#     name: Mathematics of Signal and System Analysis
+#     short: Cornell ECE 3250
+#     position: TA
 
 talks:
-  - year: Aug. 2023
-    location: Deep Learning Classics and Trends
-    url: https://mlcollective.org/dlct/
-    title: (Invited Seminar) Objective Mimatch in Reinforcement Learning from Human Feedback
-    details: "(\\href{https://drive.google.com/file/d/1F1lIi48PrWl5_80wQF40Y5dQmCBiZUUh/view?usp=sharing}{Slides Available}, \\href{https://youtu.be/j6Lss2_GSrY}{Recording Available})"
-  - year: July 2023
-    location: International Conference on Machine Learning
-    title: (Tutorial) Reinforcement Learning from Human Feedback
-    details: "(\\href{https://docs.google.com/presentation/d/1JVJz-tqD5kJEYvqYSyUFpfCA8GjtObw7f7NfA5grm-4/edit?usp=sharing}{Slides Available}, \\href{https://slideslive.com/39004357/reinforcement-learning-from-human-feedback-a-tutorial-}{Recording Available})"
-  - year: Jun 2023
-    location: ACM Conference on Fairness, Accountability, and Transparency
-    title: (Tutorial) Steering language models with reinforcement learning from human feedback and constitutional AI
-    details: "(\\href{https://docs.google.com/presentation/d/1-SzKvrfqKpK8NbTrnlLwJL5IHohPoW-0X7G17hSVW-Y/edit?usp=sharing}{Slides Available})"
-  - year: Mar 2023
-    location: UCL Dark Lab
-    title: (Invited Seminar) Reinforcement Learning from Human Feedback; Open and Academic Progress
-    details: "(\\href{https://www.youtube.com/watch?v=8SgKDSX-Me0}{Recording Available}, \\href{https://docs.google.com/presentation/d/1jUipk6Mu8On2mWu_qfiocmbgnNux7SWp/edit#slide=id.p1}{Slides})"
-  - year: Feb 2023
-    location: Microsoft Data Science Gems
-    title: (Invited Seminar) Reinforcement Learning from Human Feedback; Pathways to Open Reproduction of ChatGPT
-  - year: July 2022
-    location: ICML Workshop on Responsible Decision Making in Dynamic Environments
-    details: "(\\href{https://slideslive.com/38988545/reward-reports-for-reinforcement-learning}{Recording Available}, \\href{https://docs.google.com/presentation/d/1Id6nDc6Q1kIPeB0VI0FqmJZcrwCY5p6rY-az50h2ArI/edit?usp=sharing}{Slides})"
-    url: https://responsibledecisionmaking.github.io/schedule/
-    title: (Contributed Talk) Reward Reports for Reinforcement Learning
-  - year: July 2022
-    location: Lead The Future
-#    details: "(\\href{}{Slides Available})"
-    title: (Invited Seminar) Synthesizing Robotic Controllers with Model-based Reinforcement Learning
-  - year: April 2022
-    location: University of Pennsylvania -- Perception, Action, and Learning Group
-    details: "(\\href{https://youtu.be/HxbeQI7hfo4}{Recording Available}, \\href{https://docs.google.com/presentation/d/1cxpA8gGNErShrf4Bz04wbgY_rao3pLgd/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-    title: (Invited Seminar) Planning through Exploration and Exploitation in Model-based Reinforcement Learning
-    # url: 
-  - year: March 2022
-    location: Microsoft Research
-    details: "(\\href{https://docs.google.com/presentation/d/1_8tNoTyn0Oc9KZnATmRwM3TVEXavU7bq/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-    title: (Job Talk) Legible Reinforcement Learning via Dynamics Models
-  - year: February 2022
-    location: DeepMind Robotics All Hands
-#    details: "(\\href{https://docs.google.com/presentation/d/1uQKXAFAFzsS_Ucz-0hhPXyfruzETR987/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides Available})"
-    title: (Invited Seminar) The Challenges of Exploration for Offline Reinforcement Learning
-  - year: February 2022
-    location: Amazon Robotics \& AI
-    details: "(\\href{https://docs.google.com/presentation/d/1uQKXAFAFzsS_Ucz-0hhPXyfruzETR987/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-#    url:
-    title: (Job Talk) Synergy of Prediction and Control in Model-based Reinforcement Learning
-  - year: December 2021
-    location: Cruise AI
-#    details: "(\\href{https://www.youtube.com/watch?v=H5Q1UAEkhZY&t=1013s}{Talk available}, \\href{https://docs.google.com/presentation/d/14TZn_FpJHh1waDUYv5HBa7SmkyR8ji9d/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{slides})"
-    title: (Job Talk) Control-oriented Predictions in Model-based Reinforcement Learning
-  - year: March 2021
-    location: Cornell Robotics Seminar
-    details: "(\\href{https://www.youtube.com/watch?v=H5Q1UAEkhZY&t=1013s}{Recording Available}, \\href{https://docs.google.com/presentation/d/14TZn_FpJHh1waDUYv5HBa7SmkyR8ji9d/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-    url: https://robotics.cornell.edu/category/seminars/spring-2021/
-    title: (Invited Seminar) Improving Model Predictive Control in Model-based Reinforcement Learning
-  - year: April 2020
-    location: UC Berkeley Semiautonomous Seminar
-    details: "(\\href{https://youtu.be/Z4EpSWfU48E}{Recording Available}, \\href{https://docs.google.com/presentation/d/1Q0QYHAyPa_dO8iUsOyDcudvDAwhl24Rc/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
-    url: https://sites.google.com/berkeley.edu/semiautonomousseminar/spring-2020
-    title: (Invited Seminar) Model Learning for Low-level Control in Robotics 
-  - year: May 2019
-    location: UC Berkeley Semiautonomous Seminar
-    url: https://sites.google.com/view/cs-159-spring-2020/lectures
+#   - year: Aug. 2023
+#     location: Deep Learning Classics and Trends
+#     url: https://mlcollective.org/dlct/
+#     title: (Invited Seminar) Objective Mimatch in Reinforcement Learning from Human Feedback
+#     details: "(\\href{https://drive.google.com/file/d/1F1lIi48PrWl5_80wQF40Y5dQmCBiZUUh/view?usp=sharing}{Slides Available}, \\href{https://youtu.be/j6Lss2_GSrY}{Recording Available})"
+#   - year: July 2023
+#     location: International Conference on Machine Learning
+#     title: (Tutorial) Reinforcement Learning from Human Feedback
+#     details: "(\\href{https://docs.google.com/presentation/d/1JVJz-tqD5kJEYvqYSyUFpfCA8GjtObw7f7NfA5grm-4/edit?usp=sharing}{Slides Available}, \\href{https://slideslive.com/39004357/reinforcement-learning-from-human-feedback-a-tutorial-}{Recording Available})"
+#   - year: Jun 2023
+#     location: ACM Conference on Fairness, Accountability, and Transparency
+#     title: (Tutorial) Steering language models with reinforcement learning from human feedback and constitutional AI
+#     details: "(\\href{https://docs.google.com/presentation/d/1-SzKvrfqKpK8NbTrnlLwJL5IHohPoW-0X7G17hSVW-Y/edit?usp=sharing}{Slides Available})"
+#   - year: Mar 2023
+#     location: UCL Dark Lab
+#     title: (Invited Seminar) Reinforcement Learning from Human Feedback; Open and Academic Progress
+#     details: "(\\href{https://www.youtube.com/watch?v=8SgKDSX-Me0}{Recording Available}, \\href{https://docs.google.com/presentation/d/1jUipk6Mu8On2mWu_qfiocmbgnNux7SWp/edit#slide=id.p1}{Slides})"
+  - year: Jan 2020
+    location: Quantum Information Processing 2020, Shenzhen
+    title: GENERAL ARITHMETIC CODING FOR QUANTUM COMPRESSION
+#   - year: July 2022
+#     location: ICML Workshop on Responsible Decision Making in Dynamic Environments
+#     details: "(\\href{https://slideslive.com/38988545/reward-reports-for-reinforcement-learning}{Recording Available}, \\href{https://docs.google.com/presentation/d/1Id6nDc6Q1kIPeB0VI0FqmJZcrwCY5p6rY-az50h2ArI/edit?usp=sharing}{Slides})"
+#     url: https://responsibledecisionmaking.github.io/schedule/
+#     title: (Contributed Talk) Reward Reports for Reinforcement Learning
+#   - year: July 2022
+#     location: Lead The Future
+# #    details: "(\\href{}{Slides Available})"
+#     title: (Invited Seminar) Synthesizing Robotic Controllers with Model-based Reinforcement Learning
+#   - year: April 2022
+#     location: University of Pennsylvania -- Perception, Action, and Learning Group
+#     details: "(\\href{https://youtu.be/HxbeQI7hfo4}{Recording Available}, \\href{https://docs.google.com/presentation/d/1cxpA8gGNErShrf4Bz04wbgY_rao3pLgd/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
+#     title: (Invited Seminar) Planning through Exploration and Exploitation in Model-based Reinforcement Learning
+#     # url: 
+#   - year: March 2022
+#     location: Microsoft Research
+#     details: "(\\href{https://docs.google.com/presentation/d/1_8tNoTyn0Oc9KZnATmRwM3TVEXavU7bq/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
+#     title: (Job Talk) Legible Reinforcement Learning via Dynamics Models
+#   - year: February 2022
+#     location: DeepMind Robotics All Hands
+# #    details: "(\\href{https://docs.google.com/presentation/d/1uQKXAFAFzsS_Ucz-0hhPXyfruzETR987/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides Available})"
+#     title: (Invited Seminar) The Challenges of Exploration for Offline Reinforcement Learning
+#   - year: February 2022
+#     location: Amazon Robotics \& AI
+#     details: "(\\href{https://docs.google.com/presentation/d/1uQKXAFAFzsS_Ucz-0hhPXyfruzETR987/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
+# #    url:
+#     title: (Job Talk) Synergy of Prediction and Control in Model-based Reinforcement Learning
+#   - year: December 2021
+#     location: Cruise AI
+# #    details: "(\\href{https://www.youtube.com/watch?v=H5Q1UAEkhZY&t=1013s}{Talk available}, \\href{https://docs.google.com/presentation/d/14TZn_FpJHh1waDUYv5HBa7SmkyR8ji9d/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{slides})"
+#     title: (Job Talk) Control-oriented Predictions in Model-based Reinforcement Learning
+#   - year: March 2021
+#     location: Cornell Robotics Seminar
+#     details: "(\\href{https://www.youtube.com/watch?v=H5Q1UAEkhZY&t=1013s}{Recording Available}, \\href{https://docs.google.com/presentation/d/14TZn_FpJHh1waDUYv5HBa7SmkyR8ji9d/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
+#     url: https://robotics.cornell.edu/category/seminars/spring-2021/
+#     title: (Invited Seminar) Improving Model Predictive Control in Model-based Reinforcement Learning
+#   - year: April 2020
+#     location: UC Berkeley Semiautonomous Seminar
+#     details: "(\\href{https://youtu.be/Z4EpSWfU48E}{Recording Available}, \\href{https://docs.google.com/presentation/d/1Q0QYHAyPa_dO8iUsOyDcudvDAwhl24Rc/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
+#     url: https://sites.google.com/berkeley.edu/semiautonomousseminar/spring-2020
+#     title: (Invited Seminar) Model Learning for Low-level Control in Robotics 
+#   - year: May 2019
+#     location: UC Berkeley Semiautonomous Seminar
+#     url: https://sites.google.com/view/cs-159-spring-2020/lectures
 
 
-advising:
-  - year: 2020
-    name: Mark Selden
-    details: "(UC Berkeley BS `22)"
-    url: https://www.linkedin.com/in/mark-selden/
-  - year: 2019
-    name: Albert Wilcox
-    details: "(UC Berkeley BS `22)"
-    url: https://www.linkedin.com/in/albert-wilcox-314898184
-  - year: 2019
-    name: Jason Zhou
-    details: "(UC Berkeley BS, MS '21 to \\href{https://matician.com/}{Matician})"
-    url: https://www.linkedin.com/in/albert-wilcox-314898184
-  - year: 2018
-    name: Felipe Campos
-    details: "(UC Berkeley BS '20 to \\href{https://armstrongrobotics.com/}{Armstrong Robotics})"
-    url: https://www.linkedin.com/in/howard-zhang-8366b1147
-  - year: 2018
-    name: Howard Zhang
-    details: "(UC Berkeley BS, MS'21 to UCLA PhD)"
-    url: https://www.linkedin.com/in/howard-zhang-8366b1147
+# advising:
+#   - year: 2020
+#     name: Mark Selden
+#     details: "(UC Berkeley BS `22)"
+#     url: https://www.linkedin.com/in/mark-selden/
+#   - year: 2019
+#     name: Albert Wilcox
+#     details: "(UC Berkeley BS `22)"
+#     url: https://www.linkedin.com/in/albert-wilcox-314898184
+#   - year: 2019
+#     name: Jason Zhou
+#     details: "(UC Berkeley BS, MS '21 to \\href{https://matician.com/}{Matician})"
+#     url: https://www.linkedin.com/in/albert-wilcox-314898184
+#   - year: 2018
+#     name: Felipe Campos
+#     details: "(UC Berkeley BS '20 to \\href{https://armstrongrobotics.com/}{Armstrong Robotics})"
+#     url: https://www.linkedin.com/in/howard-zhang-8366b1147
+#   - year: 2018
+#     name: Howard Zhang
+#     details: "(UC Berkeley BS, MS'21 to UCLA PhD)"
+#     url: https://www.linkedin.com/in/howard-zhang-8366b1147
 
 honors:
-  - title: Reward Reports - Auditing AI Mozilla Technology Fund Cohort
-    year: 2023
-  - title: Best Oral Presentation; Berkeley Sensor and Actuator Sensor Spring Review
-    year: 2022
-  - title: Best Student Paper Finalist; IEEE Symposium on Multi-Robot and Multi-Agent Systems
-    year: 2021
-  - title: Berkeley EECS Demetri Angelakos Memorial Achievement Award
-    year: 2021
-  - title: Heart to Humanity Eternal (H2H8) Pioneer
-    year: 2021
-  - title: NDSEG Graduate Research Fellowship Program Top 200
-    year: 2018
-  - title: NSF Graduate Research Fellowship Program Honorable Mention
-    year: 2017, 2018
-  - title: Berkeley EECS Department Fellowship
-    year: 2017
-  - title: Eight undergraduate scholarships
-    descr: |
-      Cornell Rowing Charles E. Courtney Award,
-      Tau Beta Pi Scholarship,
-      Southeastern New England Defense Industry Alliance STEM Scholarship 2016, 2017,
-      Cornell Athletics 400 Club Induction,
-      Beta Pi Induction,
-      Eta Kappu Nu Induction,
-      American Society of Engineering Education SMART Scholar Award
-    year: 2013 -- 2017
-
+  - title: Masters Students Honors Program of USC ECE department
+    year: 2019
+  - title: First Prize of The 32nd Beijing Undergraduate Engineering Physics Competition
+    year: 2015
+  - title: First Prize of 2015 Mathematical Competition of Beihang University (ranked 11th).
+    year: 2015
 
 
 all_publications:
-  name: "Lambert"
-  file: all.bib
+  name: "Cong Yu"
+  file: cong.bib
   sort_bib: True
   include_image: False
   group_by_year: True
 
   author_urls:
-    'Aaron Snoswell': 'http://aaronsnoswell.github.io'
-    'Amy Zhang': 'https://amyzhang.github.io/'
-    'Arunkumar Byravan': 'https://scholar.google.com/citations?user=obYwWiMAAAAJ&hl=en&oi=ao'
-    'Baohe Zhang': 'https://baohezhang.com/'
-    'Brandon Amos': 'http://bamos.github.io'
-    'Craig Schindler': 'https://www.craigschindler.net/'
-    'Craig B Schindler': 'https://www.craigschindler.net/'
-    'Daniel Drew': 'http://danieldrew.me'
-    'Daniel S Drew': 'http://danieldrew.me'
-    'Denis Yarats': 'https://cs.nyu.edu/~dy1042/'
-    'Edward Grefenstette': 'https://www.egrefen.com/'
-    'Eugene Vinitsky': 'https://eugenevinitsky.github.io'
-    'Franziska Meier': 'https://fmeier.github.io/'
-    'Frank Hutter': 'https://ml.informatik.uni-freiburg.de/profile/hutter/'
-    'Kurtland Chua': 'https://kchua.github.io/'
-    'Kristofer Pister': 'https://people.eecs.berkeley.edu/~pister/'
-    'Kristofer SJ Pister': 'https://people.eecs.berkeley.edu/~pister/'
-    'Luis Pineda': 'https://scholar.google.com/citations?user=rebEn8oAAAAJ&hl=en'
-    'Lydia Lee': 'http://people.eecs.berkeley.edu/~lydialee/'
-    'Martin Riedmiller': 'https://www.riedmiller.me'
-    'Markus Wulfmeier': 'https://markusrw.github.io'
-    'Michael Bloesch': 'https://scholar.google.com/citations?user=fn6GhgoAAAAJ'
-    'Nando de Freitas': 'https://scholar.google.com/citations?user=nzEluBwAAAAJ'
-    'Nathan Lambert': 'https://www.natolambert.com/'
-    'Omry Yadan': 'https://scholar.google.com/citations?user=zSsW478AAAAJ'
-    'Roberto Calandra': 'https://www.robertocalandra.com/about/'
-    'Sarah Dean': 'https://sdean.website'
-    'Samuel Cohen': 'https://scholar.google.com/citations?user=CmdjfTsAAAAJ'
-    'Sergey Levine': 'https://people.eecs.berkeley.edu/~svlevine/'
-    'Stuart Russell': 'http://people.eecs.berkeley.edu/~russell/'
-    'Thomas Gilbert': 'https://www.thomaskrendlgilbert.com'
-    'Thomas Krendl Gilbert': 'https://www.thomaskrendlgilbert.com'
-    'Tim Hertweck': 'https://scholar.google.com/citations?user=dlzWP0UAAAAJ&hl=en&oi=ao'
-    'Tom Zick': 'https://www.linkedin.com/in/tom-zick'
-    'Vladlen Koltun': 'http://vladlen.info/'
-    'Vibhavari Dasagi': 'https://scholar.google.com/citations?user=BrhJ6-EAAAAJ&hl=en&oi=ao'
-    'William Whitney': 'http://willwhitney.com'
-    'Yuval Tassa': 'https://scholar.google.com/citations?user=CjOTm_4AAAAJ'
+    'Cong Yu': 'https://www.linkedin.com/in/cong-yu-76308114a/'
 
 
 
 skills:
   - title: Programming
-    details: Python
-  - title: Frameworks
-    details: JAX, NumPy, Pandas, PyTorch, SciPy
+    details: C++, C, Python, OCaml, Scala, LLVM
   - title: Tools
-    details: Linux, vim, git, tmux
+    details: Linux, vim, git, bash, tmux
 
 
-extracur:
-  - details: The Retort AI Podcast
-    year: 2023 -- cont.
-    url: https://retortai.com/
-  - details: Interconnects AI Blog
-    year: 2020 -- cont.
-    url: https://www.interconnects.ai/
-  - details: Cornell Varsity Lightweight Rowing
-    year: 2013 -- 2017
-    url: https://cornellsun.com/2017/06/04/lightweight-rowing-wins-3rd-national-title-since-2014-to-cap-off-undefeated-season/
-  - details: Novice Rowing Coach
-    year: 2017 -- 2018
-    url: https://lightweightcrew.berkeley.edu
-  - details: Graduates for Engaged and Extended Scholarship in Computing and Engineering President
-    year: 2021 -- 2022
-    url: https://geesegraduates.org
+# extracur:
+#   - details: The Retort AI Podcast
+#     year: 2023 -- cont.
+#     url: https://retortai.com/
+#   - details: Interconnects AI Blog
+#     year: 2020 -- cont.
+#     url: https://www.interconnects.ai/
+#   - details: Cornell Varsity Lightweight Rowing
+#     year: 2013 -- 2017
+#     url: https://cornellsun.com/2017/06/04/lightweight-rowing-wins-3rd-national-title-since-2014-to-cap-off-undefeated-season/
+#   - details: Novice Rowing Coach
+#     year: 2017 -- 2018
+#     url: https://lightweightcrew.berkeley.edu
+#   - details: Graduates for Engaged and Extended Scholarship in Computing and Engineering President
+#     year: 2021 -- 2022
+#     url: https://geesegraduates.org
