@@ -5,7 +5,7 @@ name:
 email: benyucong@gmail.com
 pdf: /data/cv.pdf
 src: https://github.com/benyucong/cv
-url: "natolambert.com"
+url: "benyucong.github.io"
 social:
   github: benyucong
   twitter: BenyucongYu
@@ -18,16 +18,17 @@ social:
 # LaTeX formatting.
 style: banking # casual, classic, oldstyle, or banking
 color: blue # blue, orange, green, red, purple, grey and black
-color1: '0.25,0.25,0.75' # Heading colors specifically for more options
-color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
-color3: '0.22,0.45,0.70'   # hyperlinks light blue
+color1: "0.25,0.25,0.75" # Heading colors specifically for more options
+color2: "0.25,0.25,0.25" # Make the font under the name a darker grey.
+color3: "0.22,0.45,0.70" # hyperlinks light blue
 
 # (tag, section type, title)
 order:
   - [about, None]
   # - [news, News]
   - [education, Education]
-  - [industry, Industry Experience]
+  # - [research, Research Experience]
+  - [industry, Industry \& Research Experience]
   - [honors, Honors \& Awards]
   - [all_publications, Publications]
   # - [repos, Repositories]
@@ -42,10 +43,13 @@ order:
   # - [extracur, Extracurriculars]
 
 about: '\vspace{18pt} \small{
-  I am a first-year Ph.D. student studying computer science at Aalto University 
+  I am a first-year Ph.D. student studying computer science at Aalto University
   where I am advised by Prof. \href{https://zbjob.github.io/}{Bo Zhao}.
-  I have a broad interest in improving data-intensive machine learning systems, and
-  optimizing quantum computing from a system view.}'
+  My academic focus centers on enhancing data-intensive machine learning systems 
+  and optimizing quantum computing from a systemic viewpoint. 
+  I aim to contribute innovative methodologies for scalable machine learning and 
+  improve the overall performance of quantum computing through hardware-software integration 
+  and error mitigation strategies.}'
 
 # reviewing:
 #   - details: Conference on Machine Learning (ICML)
@@ -149,6 +153,11 @@ about: '\vspace{18pt} \small{
 #     desc: Preference dataset for RLHF from StackExchange
 
 education:
+  - school: Aalto University
+    location: Espoo, Finland
+    degree: Doctoral Researcher in Computer Science
+    dates: Dec 2023 -- Present
+
   - school: National University of Singapore
     location: Singapore
     degree: Master of Computing (General Track)
@@ -169,10 +178,11 @@ education:
 
   - school: Beihang University
     location: Beijing, China
-    degree: B.S. in Electronic and Information Engineering
+    degree: B.E. in Electronic and Information Engineering
     dates: Sept 2014 -- July 2018
     # dates: May 2014
     overallGPA: 3.6/4.0
+
 
 industry:
   - place: TikTok Pte. Ltd.
@@ -185,7 +195,7 @@ industry:
       - "(Mentor: \\href{https://www.linkedin.com/in/zhaojie-niu-ethereum/}{Zhaojie Niu})"
   - place: StarFive Technology Co., Ltd.
     location: Singapore |
-#    title: Research Intern
+    #    title: Research Intern
     dates: Dec 2022 -- Feb 2023
     # dates: June 2018 -- Sept 2018
     details:
@@ -193,31 +203,44 @@ industry:
       - "(Mentor: \\href{https://www.linkedin.com/in/zhiguo-ge-39b0a120/}{Zhiguo Ge})"
   - place: Institute for Quantum Computing, Baidu
     location: Beijing |
-#    title: Research Intern
+    #    title: Research Intern
     dates: July 2020 -- Sept 2020
     # dates: June 2018 -- Sept 2018
     details:
       - "Software Engineer Intern"
+  - place: University of Southern California
+    location: Los Angeles |
+    dates: May 2019 -- Sept 2019
+    details:
+      - "M.S. Student "
+      - "(Supervisor: \\href{https://sites.usc.edu/tbrun/}{Todd Brun})"
+  - place: University of Washington
+    location: Seattle |
+    dates: Sept 2017 -- Nov 2017
+    details:
+      - "\\href{https://www.ielp.uw.edu/programs/research-programs/visit/overview}{VISIT} Student "
+      - "(Supervisor: \\href{https://sites.uw.edu/anantmp/}{M.P. Anantram})"
+
 
 teaching:
-#   - semester: Fa2023
-#     name: AI History
-#     short: Seoul National University, School of Law
-#     position: Guest Lecture on RL History
-#     # http://aihistoryclass.com/
-#   - semester: Su2020, Fa2020
-#     name: Introduction to Artificial Intelligence
-#     short: UCB CS188
-#     position: TA
-#   - semester: Sp2020
-#     name: Introduction to Artificial Intelligence
-#     short: UCB CS188
-#     position: Instructor
-#     details: lectured to 800+ students
-#   - semester: Fa2019
-#     name: Designing Information Devices and Systems II
-#     short: UCB EE16B
-#     position: TA
+  #   - semester: Fa2023
+  #     name: AI History
+  #     short: Seoul National University, School of Law
+  #     position: Guest Lecture on RL History
+  #     # http://aihistoryclass.com/
+  #   - semester: Su2020, Fa2020
+  #     name: Introduction to Artificial Intelligence
+  #     short: UCB CS188
+  #     position: TA
+  #   - semester: Sp2020
+  #     name: Introduction to Artificial Intelligence
+  #     short: UCB CS188
+  #     position: Instructor
+  #     details: lectured to 800+ students
+  #   - semester: Fa2019
+  #     name: Designing Information Devices and Systems II
+  #     short: UCB EE16B
+  #     position: TA
   - semester: Fa2019
     name: Linear Algebra for Engineering
     short: USC EE 510
@@ -228,23 +251,23 @@ teaching:
 #     position: TA
 
 talks:
-#   - year: Aug. 2023
-#     location: Deep Learning Classics and Trends
-#     url: https://mlcollective.org/dlct/
-#     title: (Invited Seminar) Objective Mimatch in Reinforcement Learning from Human Feedback
-#     details: "(\\href{https://drive.google.com/file/d/1F1lIi48PrWl5_80wQF40Y5dQmCBiZUUh/view?usp=sharing}{Slides Available}, \\href{https://youtu.be/j6Lss2_GSrY}{Recording Available})"
-#   - year: July 2023
-#     location: International Conference on Machine Learning
-#     title: (Tutorial) Reinforcement Learning from Human Feedback
-#     details: "(\\href{https://docs.google.com/presentation/d/1JVJz-tqD5kJEYvqYSyUFpfCA8GjtObw7f7NfA5grm-4/edit?usp=sharing}{Slides Available}, \\href{https://slideslive.com/39004357/reinforcement-learning-from-human-feedback-a-tutorial-}{Recording Available})"
-#   - year: Jun 2023
-#     location: ACM Conference on Fairness, Accountability, and Transparency
-#     title: (Tutorial) Steering language models with reinforcement learning from human feedback and constitutional AI
-#     details: "(\\href{https://docs.google.com/presentation/d/1-SzKvrfqKpK8NbTrnlLwJL5IHohPoW-0X7G17hSVW-Y/edit?usp=sharing}{Slides Available})"
-#   - year: Mar 2023
-#     location: UCL Dark Lab
-#     title: (Invited Seminar) Reinforcement Learning from Human Feedback; Open and Academic Progress
-#     details: "(\\href{https://www.youtube.com/watch?v=8SgKDSX-Me0}{Recording Available}, \\href{https://docs.google.com/presentation/d/1jUipk6Mu8On2mWu_qfiocmbgnNux7SWp/edit#slide=id.p1}{Slides})"
+  #   - year: Aug. 2023
+  #     location: Deep Learning Classics and Trends
+  #     url: https://mlcollective.org/dlct/
+  #     title: (Invited Seminar) Objective Mimatch in Reinforcement Learning from Human Feedback
+  #     details: "(\\href{https://drive.google.com/file/d/1F1lIi48PrWl5_80wQF40Y5dQmCBiZUUh/view?usp=sharing}{Slides Available}, \\href{https://youtu.be/j6Lss2_GSrY}{Recording Available})"
+  #   - year: July 2023
+  #     location: International Conference on Machine Learning
+  #     title: (Tutorial) Reinforcement Learning from Human Feedback
+  #     details: "(\\href{https://docs.google.com/presentation/d/1JVJz-tqD5kJEYvqYSyUFpfCA8GjtObw7f7NfA5grm-4/edit?usp=sharing}{Slides Available}, \\href{https://slideslive.com/39004357/reinforcement-learning-from-human-feedback-a-tutorial-}{Recording Available})"
+  #   - year: Jun 2023
+  #     location: ACM Conference on Fairness, Accountability, and Transparency
+  #     title: (Tutorial) Steering language models with reinforcement learning from human feedback and constitutional AI
+  #     details: "(\\href{https://docs.google.com/presentation/d/1-SzKvrfqKpK8NbTrnlLwJL5IHohPoW-0X7G17hSVW-Y/edit?usp=sharing}{Slides Available})"
+  #   - year: Mar 2023
+  #     location: UCL Dark Lab
+  #     title: (Invited Seminar) Reinforcement Learning from Human Feedback; Open and Academic Progress
+  #     details: "(\\href{https://www.youtube.com/watch?v=8SgKDSX-Me0}{Recording Available}, \\href{https://docs.google.com/presentation/d/1jUipk6Mu8On2mWu_qfiocmbgnNux7SWp/edit#slide=id.p1}{Slides})"
   - year: Jan 2020
     location: Quantum Information Processing 2020, Shenzhen
     title: GENERAL ARITHMETIC CODING FOR QUANTUM COMPRESSION
@@ -261,7 +284,7 @@ talks:
 #     location: University of Pennsylvania -- Perception, Action, and Learning Group
 #     details: "(\\href{https://youtu.be/HxbeQI7hfo4}{Recording Available}, \\href{https://docs.google.com/presentation/d/1cxpA8gGNErShrf4Bz04wbgY_rao3pLgd/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
 #     title: (Invited Seminar) Planning through Exploration and Exploitation in Model-based Reinforcement Learning
-#     # url: 
+#     # url:
 #   - year: March 2022
 #     location: Microsoft Research
 #     details: "(\\href{https://docs.google.com/presentation/d/1_8tNoTyn0Oc9KZnATmRwM3TVEXavU7bq/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
@@ -288,11 +311,10 @@ talks:
 #     location: UC Berkeley Semiautonomous Seminar
 #     details: "(\\href{https://youtu.be/Z4EpSWfU48E}{Recording Available}, \\href{https://docs.google.com/presentation/d/1Q0QYHAyPa_dO8iUsOyDcudvDAwhl24Rc/edit?usp=sharing&ouid=103787877275033430455&rtpof=true&sd=true}{Slides})"
 #     url: https://sites.google.com/berkeley.edu/semiautonomousseminar/spring-2020
-#     title: (Invited Seminar) Model Learning for Low-level Control in Robotics 
+#     title: (Invited Seminar) Model Learning for Low-level Control in Robotics
 #   - year: May 2019
 #     location: UC Berkeley Semiautonomous Seminar
 #     url: https://sites.google.com/view/cs-159-spring-2020/lectures
-
 
 # advising:
 #   - year: 2020
@@ -324,7 +346,6 @@ honors:
   - title: First Prize of 2015 Mathematical Competition of Beihang University (ranked 11th).
     year: 2015
 
-
 all_publications:
   name: "Cong Yu"
   file: cong.bib
@@ -333,17 +354,13 @@ all_publications:
   group_by_year: True
 
   author_urls:
-    'Cong Yu': 'https://www.linkedin.com/in/cong-yu-76308114a/'
-
-
+    "Cong Yu": "https://www.linkedin.com/in/cong-yu-76308114a/"
 
 skills:
   - title: Programming
     details: C++, C, Python, OCaml, Scala, LLVM
   - title: Tools
     details: Linux, vim, git, bash, tmux
-
-
 # extracur:
 #   - details: The Retort AI Podcast
 #     year: 2023 -- cont.
